@@ -1,0 +1,412 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #352f44;
+  color: #333;
+}
+/* Header Section:*/
+.header {
+  background: #b9b4c7;
+  color: #0f0e0e;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  margin-left: 3px;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  background-color: #b9b4c7;
+  padding: 8px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul li {
+  flex: 1;
+  margin: 0 10px;
+  text-align: c;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+/* Home Section:*/
+.home-section {
+  position: relative;
+  background-image: url("images.file/Free Vector _ Green monstera leaves with copy space vector.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: #b9b4c7;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home-content {
+  z-index: 1;
+}
+
+.home-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-container {
+  width: 50%;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.learn-more-btn {
+  padding: 10px 20px;
+  background-color: #b9b4c7;
+  color: #575757;
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.learn-more-btn:hover {
+  background-color: #575757;
+}
+/* Sections (General Section Styling):*/
+section {
+  padding: 20px;
+  margin: 20px;
+  background: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #333;
+  color: #000;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: white;
+  margin: 20px 0;
+}
+/*Table Styling:*/
+table {
+  width: 50%;
+  max-width: 400px;
+  margin-left: 0 auto;
+  border-collapse: collapse;
+  background-color: #b9b4c7;
+  color: black;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#contact {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 9px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 96%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: left;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #b9b4c7;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.reset-btn {
+  background-color: #5c5470;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+/*Responsive Styles:*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #b9b4c7;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer a:hover {
+  color: #575757;
+}
+
+footer i {
+  font-size: 24px;
+}
+.sections-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.section-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.box-logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.box-content {
+  width: 75%;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+p,
+ul {
+  color: #666;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+iframe {
+  margin-top: 10px;
+}
+.sections-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.section-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.box-logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.box-content {
+  width: 75%;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+}
+
+iframe {
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+  border: none;
+  border-radius: 10px;
+}
+.box-content h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.box-content p,
+.box-content a,
+.box-content ul {
+  color: #666;
+  font-size: 1em;
+}
+
+.box-content img {
+  margin-top: 10px;
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+.box-content a {
+  margin-top: 10px;
+  color: #b9b4c7;
+  text-decoration: none;
+}
+
+.box-content a:hover {
+  text-decoration: underline;
+}
+.projects-section {
+  padding: 20px;
+}
+
+.projects-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.section-box {
+  background-color: #fff;
+  border: 1px solid #666;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}

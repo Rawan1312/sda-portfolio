@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal Portfolio showcasing my projects, skills, and experiences."
+    />
+    <meta
+      name="keywords"
+      content="Portfolio, Projects, Skills, Experience, Contact"
+    />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Missing opening body tag -->
+    <!-- Header Section -->
+    <header class="header">
+      <img src="images.file/UserLogo.png" alt="Logo" class="logo" />
+      <span class="username">Rawan Ali</span>
+      <nav>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home/About Section -->
+    <section class="home-section" id="home">
+      <div class="home-content">
+        <div class="image-container"></div>
+        <div class="text-container">
+          <h1>Welcome to My Portfolio</h1>
+          <p>
+            I hope you enjoy exploring my work and projects. Thank you for
+            visiting!
+          </p>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="projects-wrapper">
+        <div class="section-box">
+          <div class="box-content">
+            <h4>Graduation Project</h4>
+            <img
+              src="images.file/my_graduation_project _image.jpg"
+              alt="Graduation Project Image"
+              width="50%"
+              height="auto"
+            />
+            <p>
+              The project aims to aid in the early detection of depression by
+              analyzing data and providing accurate predictions for early
+              symptom identification.
+            </p>
+          </div>
+        </div>
+
+        <div class="section-box">
+          <div class="box-content">
+            <h4>My Portfolio Project</h4>
+            <img
+              src="images.file/Portfolio_image.png"
+              alt="Portfolio_image"
+              class="Portfolioimage"
+            />
+            <p>
+              is a personal website showcasing the work and projects I have
+              completed. Its purpose is to highlight my skills, experiences, and
+              achievements across various fields.
+            </p>
+            <a href="http://127.0.0.1:5501/index.html" target="_blank">
+              View my project on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <table border="1">
+          <tr>
+            <th>Name</th>
+            <th>Level</th>
+          </tr>
+          <tr>
+            <td>c#</td>
+            <td rowspan="3">Intermediate</td>
+          </tr>
+          <tr>
+            <td>c++</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td rowspan="2">Advanced</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+          </tr>
+          <tr>
+            <td>ASP.NET</td>
+            <td>Beginner-Level Knowledge</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- My Location Section -->
+    <section class="sections-wrapper" id="location">
+      <div class="section-box location-box">
+        <div class="box-logo">
+          <img src="images.file/Location.jpg" alt="Location Logo" />
+        </div>
+        <div class="box-content">
+          <h2>My Location</h2>
+          <iframe
+            title="My Address"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116211.25010713139!2d46.349625432713005!3d24.464605164085917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f2c52f343871d%3A0x3c3b1b4aaa45e513!2z2YXYrdin2YHYuNipINin2YTZhdiy2KfYrdmF2YrYqQ!5e0!3m2!1sar!2ssa!4v1728473880308!5m2!1sar!2ssa"
+            width="300"
+            height="220"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Experience Section -->
+      <div class="section-box experience-box" id="experience">
+        <div class="box-logo">
+          <img src="images.file/Experience Logo.jpg" alt="Experience Logo" />
+        </div>
+        <div class="box-content">
+          <h2>Experience</h2>
+          <ul>
+            <li>Software Development Camp using C# Full-Stack - SDA</li>
+            <li>
+              Graduation Project: Depression Analysis Using Machine Learning
+            </li>
+            <li>Web Design Experience</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h3>Contact Me</h3>
+      <form action="submit-form.php" method="post">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Your Name"
+          />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Your Email"
+          />
+        </div>
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="Your Message"
+          ></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+        <button type="reset" class="reset-btn">Clear</button>
+      </form>
+    </section>
+
+    <hr />
+
+    <!-- Footer -->
+    <footer>
+      <a href="https://www.linkedin.com/feed/" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="mailto:3kjxx.58@gmail.com">
+        <i class="fa-solid fa-envelope"></i>Send Me an Email
+      </a>
+    </footer>
+  </body>
+</html>
